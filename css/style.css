@@ -69,6 +69,13 @@ img {
 
 /*btn*/
 
+/*input*/
+.contact-form__input:hover, .contact-form__input:focus {
+    outline: black;
+}
+
+/*input*/
+
 /*header*/
 .header {
     display: flex;
@@ -203,11 +210,15 @@ img {
     justify-content: center;
     padding-left: calc(50vw - 385px);
     padding-right: calc(50vw - 385px);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
 }
 
 .contact-form .subtitle {
     grid-column: 1 / -1;
     margin: 0 0 20px;
+
 }
 
 .contact-form__checkbox {
@@ -221,13 +232,28 @@ img {
     grid-row: 2 / 5;
     grid-column: 2 / 3;
     resize: none;
+    border-radius: 10px;
+    border-color: black;
+}
+.contact-form__input{
+    border-radius: 10px;
+    border-width: 1px;
 }
 
-.contact-form {
+.btn_send {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+contact-form__input-two{
+    display: flex;
+    grid-template-columns:none;
+
 
 }
 
-/*contact-form*/
+
+
+    /*contact-form*/
 
 /*services*/
 .services {
@@ -297,7 +323,6 @@ img {
     flex-direction: column;
     padding:60px 0;
     position: relative;
-
 }
 
 .about__title {
@@ -306,8 +331,6 @@ img {
     font-size: 36px;
     padding-bottom: 50px;
     margin: 0;
-
-
 }
 
 .about__text {
@@ -321,16 +344,25 @@ img {
 .btn_question {
     background: transparent;
     border: 2px solid #2D5E5E;
-
 }
 
 .about_photo {
     position: absolute;
-    right:0px;
-
-
+    right:0;
 }
 
-
 /*about*/
+
+/*contact-form*/
+
+
+/*.btn_send {*/
+/*   */
+/*}*/
+
+
+/*contact-form*/
+
+
+
 
