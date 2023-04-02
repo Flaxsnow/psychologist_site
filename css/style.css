@@ -234,26 +234,22 @@ img {
     resize: none;
     border-radius: 10px;
     border-color: black;
+    padding-left: 20px;
+    padding-top: 8px;
 }
-.contact-form__input{
+
+.contact-form__input {
     border-radius: 10px;
     border-width: 1px;
+    padding-left: 20px;
 }
 
 .btn_send {
     grid-column: 1 / -1;
     text-align: center;
 }
-contact-form__input-two{
-    display: flex;
-    grid-template-columns:none;
 
-
-}
-
-
-
-    /*contact-form*/
+/*contact-form*/
 
 /*services*/
 .services {
@@ -321,7 +317,7 @@ contact-form__input-two{
 .about_item {
     display: flex;
     flex-direction: column;
-    padding:60px 0;
+    padding: 60px 0;
     position: relative;
 }
 
@@ -348,17 +344,62 @@ contact-form__input-two{
 
 .about_photo {
     position: absolute;
-    right:0;
+    right: 0;
 }
 
 /*about*/
 
 /*contact-form*/
+.contact-form-two{
+    position: relative;
+    padding-bottom: 70px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    max-width: 100%;
+    padding-bottom: 25px;
 
 
-/*.btn_send {*/
-/*   */
-/*}*/
+}
+
+.contact-form__checkbox-two {
+    flex-wrap: wrap;
+}
+
+.contact-form__input-two {
+    width: 369px;
+    height: 40px;
+    margin: 0;
+    border-radius: 10px;
+    border-width: 1px;
+    padding-left: 20px;
+
+}
+
+.btn_contact-form__input {
+    max-width: 100%;
+    max-width: 369px;
+
+}
+
+.subtitle-two {
+    text-align: center;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.contact-form__checkbox-two{
+    position: absolute;
+    left: 423px;
+    transform: translateY(-40%);
+    padding-top: 25px;
+
+}
 
 
 /*contact-form*/
