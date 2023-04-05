@@ -24,6 +24,7 @@ img {
     padding-right: calc(50vw - 585px);
 }
 
+
 /*.subtitle*/
 .subtitle {
     text-align: center;
@@ -95,6 +96,8 @@ img {
     display: flex;
     list-style: none;
     gap: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 .nav__link {
@@ -370,7 +373,7 @@ img {
 }
 
 .contact-form__input-two {
-    width: 369px;
+    max-width: 369px;
     height: 40px;
     margin: 0;
     border-radius: 10px;
