@@ -24,6 +24,7 @@ img {
     padding-right: calc(50vw - 585px);
 }
 
+
 /*.subtitle*/
 .subtitle {
     text-align: center;
@@ -69,6 +70,13 @@ img {
 
 /*btn*/
 
+/*input*/
+.contact-form__input:hover, .contact-form__input:focus {
+    outline: black;
+}
+
+/*input*/
+
 /*header*/
 .header {
     display: flex;
@@ -88,6 +96,8 @@ img {
     display: flex;
     list-style: none;
     gap: 15px;
+    margin: 0;
+    padding: 0;
 }
 
 .nav__link {
@@ -203,11 +213,15 @@ img {
     justify-content: center;
     padding-left: calc(50vw - 385px);
     padding-right: calc(50vw - 385px);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
 }
 
 .contact-form .subtitle {
     grid-column: 1 / -1;
     margin: 0 0 20px;
+
 }
 
 .contact-form__checkbox {
@@ -221,10 +235,21 @@ img {
     grid-row: 2 / 5;
     grid-column: 2 / 3;
     resize: none;
+    border-radius: 10px;
+    border-color: black;
+    padding-left: 20px;
+    padding-top: 8px;
 }
 
-.contact-form {
+.contact-form__input {
+    border-radius: 10px;
+    border-width: 1px;
+    padding-left: 20px;
+}
 
+.btn_send {
+    grid-column: 1 / -1;
+    text-align: center;
 }
 
 /*contact-form*/
@@ -295,9 +320,8 @@ img {
 .about_item {
     display: flex;
     flex-direction: column;
-    padding:60px 0;
+    padding: 60px 0;
     position: relative;
-
 }
 
 .about__title {
@@ -306,8 +330,6 @@ img {
     font-size: 36px;
     padding-bottom: 50px;
     margin: 0;
-
-
 }
 
 .about__text {
@@ -321,16 +343,70 @@ img {
 .btn_question {
     background: transparent;
     border: 2px solid #2D5E5E;
-
 }
 
 .about_photo {
     position: absolute;
-    right:0px;
+    right: 0;
+}
+
+/*about*/
+
+/*contact-form*/
+.contact-form-two{
+    position: relative;
+    padding-bottom: 70px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    max-width: 100%;
+    padding-bottom: 25px;
 
 
 }
 
+.contact-form__checkbox-two {
+    flex-wrap: wrap;
+}
 
-/*about*/
+.contact-form__input-two {
+    max-width: 369px;
+    height: 40px;
+    margin: 0;
+    border-radius: 10px;
+    border-width: 1px;
+    padding-left: 20px;
+
+}
+
+.btn_contact-form__input {
+    max-width: 100%;
+    max-width: 369px;
+
+}
+
+.subtitle-two {
+    text-align: center;
+    margin: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.contact-form__checkbox-two{
+    position: absolute;
+    left: 423px;
+    transform: translateY(-40%);
+    padding-top: 25px;
+
+}
+
+
+/*contact-form*/
+
+
+
 
