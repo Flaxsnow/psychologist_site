@@ -168,7 +168,7 @@ padding-top: 20px;
         height: 30px;
     }
     .contact-form__checkbox-two{
-        padding-bottom: 0px;
+        padding-bottom: 0;
     }
 .footer{
     padding-bottom: 10px;
@@ -206,7 +206,7 @@ padding-top: 20px;
     padding-bottom: 190px;
 }
 .about_photo{
-    left:0px;
+    left:0;
     top:50px
 }
 .about__text{
